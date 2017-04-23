@@ -1,12 +1,3 @@
-/*!
- * phaser-input - version 2.0.3
- * Adds input boxes to Phaser like CanvasInput, but also works for WebGL and Mobile, made for Phaser only.
- *
- * OrangeGames
- * Build at 21-04-2017
- * Released under MIT License
- */
-
 var __extends = (this && this.__extends) || function (d, b) {
     for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
     function __() { this.constructor = d; }
@@ -692,4 +683,3 @@ var PhaserInput;
     Plugin.onKeyboardClose = new Phaser.Signal();
     PhaserInput.Plugin = Plugin;
 })(PhaserInput || (PhaserInput = {}));
-//# sourceMappingURL=phaser-input.js.map
